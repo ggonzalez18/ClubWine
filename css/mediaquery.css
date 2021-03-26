@@ -1,0 +1,313 @@
+/* vista desktop */
+
+@media screen and (min-width: 992px) {
+    .menu_colapse,
+    .category_responsive,
+    .content_information_responsive,
+    .footer_article_nav_responsive,
+    .footer_copyright,
+    .site_titles_responsive {
+        display: none
+    }
+    /* sites hover */
+    .header_button:hover,
+    .footer_button:hover,
+    .section_newsletter_button:hover,
+    .modal_button:hover {
+        background-color: #ECAB46;
+    }
+    a:hover,
+    .text_category:hover,
+    .rrss_icon:hover {
+        color: #ECAB46;
+        cursor: pointer;
+    }
+    .button_showmore:hover {
+        color: white;
+        background-color: #ECAB46;
+    }
+    .category_icon:hover {
+        border: 7px solid #ECAB46;
+        width: 109px;
+        height: 109px;
+    }
+    .button_text:hover {
+        color: white;
+    }
+    /*  body desktop */
+    .header_banner {
+        min-height: 400px;
+    }
+    .header_button {
+        margin-left: auto;
+        margin-top: 30px;
+    }
+    .section_contenido {
+        padding-bottom: 50px;
+        background-color: #F8F8F8;
+    }
+    .footer_input {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* vista tablet */
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .menu_colapse,
+    .category_responsive,
+    .content_information_responsive,
+    .footer_article_nav_responsive,
+    .footer_copyright,
+    .site_titles_responsive {
+        display: none;
+    }
+    /* header tablet*/
+    .banner_title {
+        left: 7%;
+        font-size: 40px;
+    }
+    .header_button {
+        margin-left: auto;
+        margin-top: 60px;
+    }
+    .header_banner {
+        min-height: 400px;
+    }
+    /* contenido de categorias tablet */
+    .article_information_left {
+        width: 48%;
+    }
+    .article_information_center {
+        width: 48%;
+        margin: 0% 0% 0% 0%!important;
+    }
+    .article_information_rigth {
+        margin-top: 4%;
+    }
+    .content_information {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 1% 5%;
+    }
+    .category_icon {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+    }
+    .section_contenido {
+        padding-bottom: 50px;
+        background-color: #F8F8F8;
+    }
+    /* footer tablet */
+    footer {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 1% 5%;
+    }
+    .footer_article_contact {
+        width: 45%;
+    }
+    .footer_article_nav {
+        display: flex;
+        width: 45%;
+        margin-top: 3%;
+    }
+    .footer_article_form {
+        width: 100%;
+        margin-top: 3%;
+        display: flex;
+        margin-bottom: 3%;
+    }
+    .footer_button {
+        margin-left: 2%;
+    }
+    /* typography tablet */
+    .site_titles {
+        font-size: 28px;
+    }
+    .sites_subtitle {
+        font-size: 24px;
+    }
+}
+
+
+/* vista responsiva mobile normal*/
+
+@media (min-width: 576px) and (max-width: 768px) {
+    ul,
+    .header_icon,
+    .category,
+    .content_button_showmore,
+    .content_information,
+    .footer_article_nav,
+    .site_titles {
+        display: none;
+    }
+    /*  header mobile normal */
+    .header_nav {
+        height: 60px;
+    }
+    .header_brand {
+        width: 50px;
+        top: 1.5%;
+    }
+    .header_button {
+        margin: auto;
+        margin-top: 60px;
+    }
+    .header_banner {
+        min-height: 300px;
+    }
+    .container_element_banner {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    /* newsletter mobile normal */
+    .section_newsletter_input {
+        width: 80%;
+    }
+    /* contenido de categorias mobile normal */
+    .icon_category {
+        font-size: 50px;
+    }
+    /* footer mobile normal*/
+    footer {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 5% 5%;
+    }
+    .footer_article_form {
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_button {
+        margin-top: 3%;
+        margin: auto;
+    }
+    /* typography mobile normal */
+    .banner_title {
+        left: 0% !important;
+        right: 5%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .sites_subtitle {
+        font-size: 22px;
+    }
+    .footer_title {
+        text-align: center;
+    }
+    .footer_text {
+        font-size: 14px;
+        padding: 0px !important;
+        line-height: 5px;
+        text-align: center;
+    }
+    .sites_subtitle_two {
+        color: white;
+        font-size: 22px;
+    }
+}
+
+
+/* vista mobile xs */
+
+@media (min-width: 0px) and (max-width: 576px) {
+    ul,
+    .header_icon,
+    .category,
+    .content_information,
+    .content_button_showmore,
+    .footer_article_nav,
+    .site_titles {
+        display: none;
+    }
+    /* header mobile xs*/
+    .header_nav {
+        height: 60px;
+    }
+    .header_brand {
+        width: 50px;
+        top: 1.5%;
+    }
+    .banner_title {
+        left: 0% !important;
+        right: 5%;
+        font-size: 26px;
+        text-align: center;
+    }
+    .header_button {
+        margin: auto;
+        margin-top: 60px;
+    }
+    .header_banner {
+        min-height: 300px;
+    }
+    .menu_colapse {
+        height: 58px;
+        width: 58px;
+        display: flex;
+    }
+    .icon_hamburger {
+        vertical-align: auto;
+        margin: auto;
+    }
+    /* newsletter mobile XS */
+    .section_newsletter_input {
+        width: 80%;
+    }
+    /* contenido de categorias mobile xs */
+    .icon_category {
+        font-size: 50px;
+    }
+    /* footer responsive xs */
+    footer {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 3% 5%;
+    }
+    .footer_article_contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_article_form {
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_button {
+        margin-top: 3%;
+        margin: auto;
+    }
+    .footer_text_nav_resposive {
+        font-size: 11px;
+        color: white;
+        text-decoration: none;
+    }
+    /* typography mobile XS */
+    .sites_subtitle {
+        font-size: 20px;
+    }
+    .footer_title {
+        text-align: center;
+    }
+    .footer_text {
+        font-size: 14px;
+        padding: 0px !important;
+        line-height: 5px;
+        text-align: center;
+    }
+    .sites_subtitle_two {
+        color: white;
+        font-size: 22px;
+    }
+}

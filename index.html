@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClubWine</title>
+    <meta name="gabriela gonzalez" content="primer sitio">
+    <meta name="description" content="Enoturismo para amantes del vino">
+    <meta name="keywords" content="tour, tours, vino, viña, catas">
+    <link rel="shortcut icon" href="img/logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,900;1,400&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header role="heading" title="cabecera de sitio club wine">
+        <img src="img/logo.svg" alt="logo" class="header_brand" role="img">
+        <nav class="header_nav" role="navigation">
+            <ul>
+                <li><a href="#">Viñas</a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="#">Catas</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Restaurant</a></li>
+            </ul>
+            <div role="figure" class="header_icon">
+                <i class="fab fa-facebook-f rrss_icon"></i>
+                <i class="fab fa-instagram rrss_icon"></i>
+                <i class="fab fa-twitter rrss_icon"></i>
+                <i class="fab fa-whatsapp rrss_icon"></i>
+            </div>
+            <div class="menu_colapse">
+                <i class="fas fa-bars icon_hamburger"></i>
+            </div>
+        </nav>
+
+        <section role="banner" class="header_banner">
+            <article class="container_element_banner">
+                <h1 class="banner_title" role="text">Disfruta de los mejores <br> tours enológicos <br> del país</h1>
+                <button class="header_button" role="button"><a class="button_text" target="_blank" href="https://www.casamarin.cl/visitasyalojamiento"> Quiero Asistir</a></button>
+            </article>
+        </section>
+
+    </header>
+    <!-- section newsletter -->
+    <section class="section_newsletter" role="newsletter" title="sección de suscripción de usuario">
+        <h1 class="site_titles" role="text">¿Quieres vivir una experiencia única?</h1>
+        <h1 class="site_titles_responsive" role="text">¿Quieres vivir una <br> experiencia única?</h1>
+        <p class="sites_subtitle" role="text">Se el primero en conocer <br> la próxima aventura</p>
+        <form>
+            <p class="text_subscription" role="text">Suscríbete para notificarte</p>
+            <input class="section_newsletter_input" type="email" placeholder="Email" role="textbox"><br>
+            <button class="section_newsletter_button" role="button"><a href="#openModal" class="button_text">Suscríbete</a></button>
+        </form>
+    </section>
+    <!-- section categorias/contenido -->
+    <section class="section_contenido" role="navigation">
+        <section class="category" title="barra de categorias para acceder al contenido">
+            <article class="category_icon_navigation" role="link">
+                <img class="category_icon" src="img/icon_vinas.svg" alt="icono para ver viñas">
+                <p class="text_category">Viña</p>
+            </article>
+            <article class="category_icon_navigation" role="link">
+                <img class="category_icon" src="img/icon_tours.svg" alt="icono para ver tours">
+                <p class="text_category">Tours</p>
+            </article>
+            <article class="category_icon_navigation" role="link">
+                <img class="category_icon" src="img/icon_catas.svg" alt="icono para ver catas">
+                <p class="text_category">Catas</p>
+            </article>
+            <article class="category_icon_navigation" role="link">
+                <img class="category_icon" src="img/icon_evento.svg" alt="icono para ver eventos">
+                <p class="text_category">Eventos</p>
+            </article>
+            <article class="category_icon_navigation" role="link">
+                <img class="category_icon" src="img/icon_restorant.svg" alt="icono restorant">
+                <p class="text_category">Restorant</p>
+            </article>
+            <article class="category_icon_navigation" role="link">
+                <img class="category_icon" src="img/icon_suscribir.svg" alt="icono para suscribir">
+                <a href="#openModa2" class="text_category_a">
+                    <p class="text_category">Suscríbete</p>
+                </a>
+            </article>
+        </section>
+        <section class="category_responsive" title="slide de categorias para acceder al contenido">
+            <button class="category_button_responsive"><i class="fas fa-chevron-left"></i></button>
+            <div class="category_content_responsive">
+                <img class="category_icon_responsive" src="img/icon_vinas_two.svg" alt="icono para suscribir">
+                <p class="text_category">Viña</p>
+            </div>
+            <button class="category_button_responsive"><i class="fas fa-chevron-right"></i></button>
+        </section>
+        <h1 class="site_titles" role="text">Viñas</h1>
+        <section class="content_information" title="contenido informativo principal del enoturismo">
+            <article class="article_information_left" role="article">
+                <img src="https://images.pexels.com/photos/2954929/pexels-photo-2954929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" role="img" alt="viña de enoturismo" width="100%">
+                <h2 class="sites_subtitle_two">viña concha y toro</h2>
+                <p>El suelo y el clima se combinan para disfrutar de aromas y sabores únicos en una copa. El vino es un fiel reflejo de su terroir y somos privilegiados de poder entregar el mejor ejemplar gracias a nuestra geografía. Posee viñas en gran
+                    parte de Chile aprovechando los suelos mas fertiles como los son los valles de Maipo, Casablanca, Limarí, Cachapoal, Colchagua y Maule.</p>
+            </article>
+            <article class="article_information_center" role="article">
+                <img src="https://images.pexels.com/photos/1277181/pexels-photo-1277181.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" role="img" alt="viña de enoturismo" width="100%">
+                <h2 class="sites_subtitle_two">viña Undurraga</h2>
+                <p>En una superficie total aproximada de 1350 hectáreas, que se extiende por los mejores valles vitivinícolas de Chile, Undurraga desarrolla su actividad agrícola en predios exclusivamente dedicados al cultivo y producción de la más fina
+                    uva vinífera. Sus localidades están en los valles de San Antonio, Talagante, Melipilla, Pichidegua, Colchagua y Maule.</p>
+            </article>
+            <article class="article_information_right" role="article">
+                <img src="https://images.pexels.com/photos/39511/purple-grapes-vineyard-napa-valley-napa-vineyard-39511.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" role="img" alt="viña de enoturismo" width="100%">
+                <h2 class="sites_subtitle_two">viña indómita
+                </h2>
+                <p>Con una ubicación privilegiada entre dos de las ciudades más importantes de Chile (Santiago y Valparaíso), el espíritu de Viña Indómita se vive en cada rincón de su imponente casona ubicada en Casablanca, con una vista panorámica sin igual
+                    del valle y una elegante sala de barricas enclavada dentro del cerro, que invita a probar vinos sofisticados que reflejan lo mejor de nuestro terroir.</p>
+            </article>
+        </section>
+        <section class="content_information_responsive" title="contenido informativo principal del enoturismo">
+            <article class="article_information_left_responsive" role="article">
+                <article class="content_text_responsive">
+                    <h2 class="sites_subtitle_two">viña concha y toro</h2>
+                    <p class="text_information_responsive">El suelo y el clima se combinan para disfrutar de aromas y sabores únicos en una copa. El vino es un fiel reflejo de su terroir y somos privilegiados de poder entregar el mejor ejemplar gracias a nuestra geografía. Posee viñas en gran
+                        parte de Chile aprovechando los suelos mas fertiles como los son los valles de Maipo, Casablanca, Limarí, Cachapoal, Colchagua y Maule.</p>
+                    <button class="button_showmore_responsive">Ver más ></button>
+                </article>
+            </article>
+
+            <article class="article_information_center_responsive" role="article">
+                <article class="content_text_responsive">
+                    <h2 class="sites_subtitle_two">viña Undurraga</h2>
+                    <p class="text_information_responsive">En una superficie total aproximada de 1350 hectáreas, que se extiende por los mejores valles vitivinícolas de Chile, Undurraga desarrolla su actividad agrícola en predios exclusivamente dedicados al cultivo y producción de la más fina
+                        uva vinífera. Sus localidades están en los valles de San Antonio, Talagante, Melipilla, Pichidegua, Colchagua y Maule.</p>
+                    <button class="button_showmore_responsive">Ver más ></button>
+                </article>
+            </article>
+            <article class="article_information_right_responsive" role="article">
+                <article class="content_text_responsive">
+                    <h2 class="sites_subtitle_two">viña indómita</h2>
+                    <p class="text_information_responsive">Con una ubicación privilegiada entre dos de las ciudades más importantes de Chile (Santiago y Valparaíso), el espíritu de Viña Indómita se vive en cada rincón de su imponente casona ubicada en Casablanca, con una vista panorámica sin
+                        igual del valle y una elegante sala de barricas enclavada dentro del cerro, que invita a probar vinos sofisticados que reflejan lo mejor de nuestro terroir.</p>
+                    <button class="button_showmore_responsive">Ver más ></button>
+                </article>
+            </article>
+        </section>
+        <article class="content_button_showmore" role="button">
+            <button class="button_showmore" role="button">Ver mas ></button>
+        </article>
+    </section>
+
+    <footer title="bajada del sitio con datos empresa, navegacion del sitio y suscripción">
+        <article class="footer_article_contact" role="article">
+            <h3 class="footer_title" role="text">¿Quieres promocionar tu viña?</h3>
+            <p class="footer_text" role="text"><i class="far fa-envelope footer_icon"></i>clubwine@contacto.cl</p>
+            <p class="footer_text" role="cell"><i class="fas fa-phone-alt footer_icon"></i>+(569) XXXX XXXX</p>
+        </article>
+        <article class="footer_article_nav" role="navigation">
+            <article class="footer_text" role="text">
+                <a>Viñas</a><br>
+                <a>Tours</a><br>
+                <a>Catas</a><br>
+            </article>
+            <article class="footer_text" role="text">
+                <a>Eventos</a><br>
+                <a>Restaurantes</a><br>
+            </article>
+        </article>
+        <form class="footer_article_form" role="form">
+            <input class="footer_input" type="email" placeholder="Email"><br>
+            <button class="footer_button" role="button"><a class="button_text" href="#openModal">Suscríbete</a></button>
+        </form>
+        <article class="footer_copyright" role="article">
+            <p>Club wine © xxxx - xxxx Todos los derechos reservados Terminos y condiciones de uso.</p>
+        </article>
+    </footer>
+
+
+    <section id="openModal" class="modalDialog" title="modal de bienvenido al clubWine" role="dialog">
+        <div>
+            <a href="index.html"><img src="img/logo.svg" alt="logo" class="brand_modal" role="img"></a>
+            <a href="index.html" title="Close" class="close">X</a>
+            <p class="close_text">Cerrar</p>
+            <h2 class="titulo_modal">¡Bienvenido a la comunidad <br> ClubWine!</h2>
+            <p class="texto_modal">Serás el primero en conocer nuevas<br> novedades del Enoturismo</p>
+        </div>
+    </section>
+
+    <section id="openModa2" class="modalDialog" role="dialog" title="modal de suscripción">
+        <div>
+            <a href="index.html"><img src="img/logo.svg" alt="logo" class="brand_modal" role="img"></a>
+            <a href="index.html" title="Close" class="close">X</a>
+            <p class="close_text">Cerrar</p>
+            <form>
+                <p class="modal_text" role="text">Suscríbete para notificarte</p>
+                <input class="modal_input" type="email" placeholder="Email" role="textbox"><br>
+                <button class="modal_button" role="button"><a href="#openModal" class="button_text">Suscríbete</a></button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

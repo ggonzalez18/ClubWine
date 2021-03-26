@@ -1,0 +1,427 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* --------- header --------- */
+
+.header_brand {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    z-index: 999;
+    width: 100px;
+}
+
+.header_nav {
+    background-color: #282828;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 80px;
+    justify-content: flex-end;
+}
+
+.header_icon {
+    margin-right: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+}
+
+.rrss_icon {
+    padding-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu_colapse {
+    background-color: #ECAB46;
+    height: 60px;
+    width: 60px;
+    display: flex;
+}
+
+.icon_hamburger {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    vertical-align: auto;
+    margin: auto;
+}
+
+.container_element_banner {
+    position: absolute;
+    width: 90%;
+    padding: 5% 5%;
+}
+
+.header_button {
+    color: white;
+    background-color: #7D170F;
+    border: none;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.header_banner {
+    background-image: url("../img/banner-1.jpeg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* ------------ style section newsletter ----------- */
+
+.section_newsletter {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #F8F8F8;
+}
+
+.section_newsletter_button {
+    background-color: #7D170F;
+    border: none;
+    padding: 9px 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.section_newsletter_input {
+    width: 40%;
+    height: calc(1em + .7rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem .25rem .25rem .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+/* -------- style section category/content ---------*/
+
+.category {
+    background-color: #282828;
+    padding: 2% 5% 1% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category_icon_navigation {
+    text-align: center;
+}
+
+.category_responsive {
+    background-color: #282828;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category_content_responsive {
+    background-color: #282828;
+    display: flex;
+    flex-direction: column;
+}
+
+.category_icon {
+    width: 107px;
+    height: 107px;
+    border-radius: 50%;
+    border: 6px solid white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.category_icon_responsive {
+    width: 107px;
+    height: 107px;
+    border-radius: 50%;
+    border: 6px solid #ECAB46;
+    cursor: pointer;
+    text-align: center;
+}
+
+.category_button_responsive {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.content_information {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 5%;
+}
+
+.article_information_left,
+.article_information_right {
+    width: 100%;
+}
+
+.article_information_center {
+    width: 100%;
+    margin: 0% 2%;
+}
+
+.article_information_left_responsive {
+    background-image: url("https://images.pexels.com/photos/2836735/pexels-photo-2836735.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    padding: 1% 5%;
+    width: 90%;
+    min-height: 380px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0%;
+}
+
+.article_information_center_responsive {
+    background-image: url("https://images.pexels.com/photos/434311/pexels-photo-434311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    padding: 1% 5%;
+    width: 90%;
+    min-height: 380px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0%;
+}
+
+.article_information_right_responsive {
+    background-image: url("https://images.pexels.com/photos/4556092/pexels-photo-4556092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    padding: 1% 5%;
+    width: 90%;
+    min-height: 380px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0%;
+}
+
+.article_information_left_responsive:before,
+.article_information_center_responsive:before,
+.article_information_right_responsive:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.442);
+}
+
+.content_button_showmore {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1% 5%;
+}
+
+.button_showmore {
+    border: none;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.content_text_responsive {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    padding: 5%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.text_information_responsive {
+    color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.87);
+    text-align: center;
+}
+
+.button_showmore_responsive {
+    border: 4px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+
+/* ------------- style footer ------------*/
+
+footer {
+    background-color: #282828;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 3% 5%;
+}
+
+.footer_icon {
+    margin-right: 20px;
+}
+
+.footer_article_contact,
+.footer_article_form {
+    width: 100%;
+}
+
+.footer_article_nav {
+    display: flex;
+    width: 100%;
+}
+
+.footer_input {
+    width: 90%;
+    height: calc(1em + .7rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem .25rem .25rem .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.footer_button {
+    background-color: #7D170F;
+    border: none;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+.footer_copyright {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+
+/* ------- site fonts ----------*/
+
+.site_titles {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.site_titles_responsive {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Playfair Display SC', serif;
+    margin: 0;
+}
+
+.banner_title {
+    color: white;
+    text-align: left;
+    text-shadow: 5px 4px 7px rgba(0, 0, 0, 0.87);
+    margin: 0;
+    font-size: 48px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.footer_text {
+    font-size: 14px;
+    color: white;
+    padding-right: 25px;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.footer_title {
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+}
+
+header a {
+    padding-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+}
+
+.sites_subtitle {
+    font-size: 30px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.sites_subtitle_two {
+    font-size: 20px;
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+}
+
+.text_category_a {
+    text-decoration: none;
+}
+
+.text_category {
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text_subscription {
+    color: rgb(66, 66, 66);
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+.button_text {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Playfair Display SC', serif;
+}
